@@ -1,0 +1,67 @@
+body {
+    background-color: #232323;
+    color: white;
+    margin: 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#colorDisplay {
+    font-size: 150%;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.6%;
+    background-color: purple;
+    float: left;
+    transition: all .6s;
+    border-radius: 15px;
+}
+span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+h1 {
+    background-color: steelblue;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    font-weight: normal;
+    padding: 1.2rem 0;
+}
+#stripe {
+    background-color: white;
+    height: 2rem;
+    text-align: center;
+}
+#tryAgain {
+    color: black;
+    display: inline-block;
+    font-size: inherit;
+    width: 20%;
+}
+button {
+    border: none;
+    height: 100%;
+    transition: all .6s;
+    color: steelblue;
+    background-color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+.selected {
+    background-color: steelblue;
+    color: white;
+}
